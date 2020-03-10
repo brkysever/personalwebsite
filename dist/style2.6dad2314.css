@@ -1,0 +1,230 @@
+body {
+    background: #f1f1f1;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container span {
+    display: block;
+}
+
+.text1 {
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    background: #f1f1f1;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: px;
+    color: #3ae374;
+    padding-left: 160px;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 17px;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 4px;
+        margin-bottom: -40px;
+    }
+}
+
+.container {
+    animation: cssAnimation 0s ease-in 4.2s forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+
+/* -------------------------------cazscasca-------- */
+
+.anasayfa {
+    animation-name: animasyon;
+    animation-duration: 5.5s;
+}
+
+@keyframes animasyon {
+    0% {
+        opacity: 0.0;
+    }
+    25% {
+        opacity: 0.0;
+    }
+    75% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.box1 {
+    background: linear-gradient(45deg, #3ae374, #32ff7e);
+    width: 550px;
+    height: 110px;
+}
+
+.this {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100 lighter;
+}
+
+.ben {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first {
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.second {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.aa {
+    background: linear-gradient(45deg, #3ae374, #32ff7e);
+    width: 1000px;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bodyy {}
+
+
+/* -----------------------CV BUTTON------------------------ */
+
+.gocv {
+    height: 50px;
+    width: 100px;
+    border: 1px solid #3ae374;
+    background: none;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.gocv {
+    color: #3ae374;
+}
+
+.gocv:hover {
+    color: #fff;
+}
+
+.gocv::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3ae374;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.gocv::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.gocv:hover::before {
+    height: 180%;
+}
+
+
+/* ---------------social buttons------------------- */
+
+.social-buttons {
+    padding-right: 300px;
+}
+
+.social-buttons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.social-buttons a::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #3ae374, #32ff7e);
+    border-radius: 5%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before {
+    transform: scale(0);
+}
+
+.social-buttons a i {
+    transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i {
+    background: linear-gradient(45deg, #3ae374, #32ff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+}
+
+
+/* -------------------------------------------------------- */
+
+/*# sourceMappingURL=/style2.6dad2314.css.map */

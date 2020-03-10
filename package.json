@@ -1,0 +1,19 @@
+{
+    "name": "brky",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel sever.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brkysever/personalwebsite.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brkysever/personalwebsite/issues"
+    },
+    "homepage": "https://github.com/brkysever/personalwebsite#readme"
+}
